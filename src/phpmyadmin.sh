@@ -1,3 +1,4 @@
- sudo apt-get install -y phpmyadmin 
+sudo add-apt-repository ppa:phpmyadmin/ppa
+sudo apt-get install phpmyadmin
 
- sudo ln -s /usr/share/phpmyadmin /var/www/html
+sudo ln -s /usr/share/phpmyadmin /var/www/html
