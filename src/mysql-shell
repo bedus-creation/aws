@@ -1,0 +1,11 @@
+# How to upgrade mysql 5.7 to mysql 8
+
+## Download APT 
+
+### Upgrade
+sudo apt-get update
+
+sudo apt install mysql-server
+
+### Install Mysql Shell
+sudo apt-get install mysql-shell
