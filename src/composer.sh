@@ -6,3 +6,7 @@ sudo chown -R www-data: storage bootstrap
 
 # composer install in porduction environment
 composer install -o --no-interaction --no-dev
+
+
+# Composer install with different PHP version
+ php8.1 /usr/bin/composer install 
