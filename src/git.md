@@ -12,5 +12,5 @@ git checkout {commitId} -- app/Data/Entities/Client/Client.php
 Or commit Id is optional
 
 ```bash
-git checkout {commitId} -- app/Data/Entities/Client/Client.php
+git checkout -- app/Data/Entities/Client/Client.php
 ```
