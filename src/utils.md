@@ -32,3 +32,8 @@ sudo chmod +x snap.sh &&
 ```bash
 journalctl --vacuum-time=10d
 ```
+
+### Clean up yarn cache 
+```bash
+yarn cache clean
+```
