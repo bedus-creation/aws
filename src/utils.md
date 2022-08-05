@@ -26,3 +26,9 @@ LANG=C snap list --all | awk '/disabled/{print $1, $3}' |
 ```bash
 sudo chmod +x snap.sh && 
 ```
+
+### Clean up logs older then given number of days.
+
+```bash
+journalctl --vacuum-time=10d
+```
