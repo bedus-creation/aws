@@ -19,7 +19,7 @@ sudo apt install -y nginx
 ### PHP
 
 ```bash
-PHP="7.3"
+PHP="8.1"
 
 sudo apt-get install -y php$PHP-fpm php$PHP-cli php$PHP-gd php$PHP-mysql \
        php$PHP-pgsql php$PHP-imap php-memcached php$PHP-mbstring php$PHP-xml php$PHP-curl \
