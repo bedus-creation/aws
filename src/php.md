@@ -1,6 +1,6 @@
 ### Repositories
 ```bash
-sudo add-apt-repository -y ppa:nginx/stable
+sudo add-apt-repository -y ppa:ondrej/nginx
 sudo add-apt-repository -y ppa:ondrej/php
 sudo apt-get update
 ```
