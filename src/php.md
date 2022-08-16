@@ -6,8 +6,11 @@ sudo apt-get update
 ```
 
 
-# Basics
+### Basics
+
+```bash
 sudo apt-get install -y curl git curl wget zip unzip htop python3.10 unattended-upgrades
+```
 
 # Nginx
 sudo apt-get install -y nginx
