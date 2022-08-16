@@ -25,3 +25,9 @@ sudo apt install -y php$PHP-fpm php$PHP-cli php$PHP-gd php$PHP-mysql \
        php$PHP-pgsql php$PHP-imap php-memcached php$PHP-mbstring php$PHP-xml php$PHP-curl \
        php$PHP-bcmath php$PHP-sqlite3 php$PHP-curl php$PHP-zip
 ```
+
+### Composer
+
+```
+php -r "readfile('http://getcomposer.org/installer');" | sudo php -- --install-dir=/usr/local/bin/ --filename=composer
+```
