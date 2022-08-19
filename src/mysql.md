@@ -11,3 +11,9 @@ create user myuser@'localhost' identified by 'secret';
 grant all privileges on myapp.* to myuser@'localhost';
 
 flush privileges;
+
+
+### Import .Sql File
+```bash
+mysql -u {root} -p {database} < {file}.sql
+```
