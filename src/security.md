@@ -30,3 +30,9 @@ sudo apt install iptables-persistent
 ```bash
 sudo apt install -y fail2ban
 ```
+
+### Auth Log
+
+```bash
+cat /var/log/auth.log
+```
