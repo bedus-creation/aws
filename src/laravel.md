@@ -1,7 +1,7 @@
 ### Change File owner and group
 
 ```bash
-chown -R forge:forge
+chown -R forge:forge ./
 ```
 
 ### Laravel Queue 
