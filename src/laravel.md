@@ -30,4 +30,12 @@ stdout_logfile=/home/forge/app.com/worker.log
 stopwaitsecs=3600
 ```
 
+and start/read supervisor as 
+
+```bash
+sudo supervisorctl reread
+sudo supervisorctl update
+sudo supervisorctl start laravel-worker:*
+```
+
 
