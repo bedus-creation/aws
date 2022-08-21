@@ -38,4 +38,14 @@ sudo supervisorctl update
 sudo supervisorctl start laravel-worker:*
 ```
 
+### Schedule
+To edit 
+```bash
+crontab -e
+```
+To restart the cron job
+```bash
+sudo service cron restart
+```
+
 
