@@ -31,3 +31,16 @@ sudo apt install -y php$PHP-fpm php$PHP-cli php$PHP-gd php$PHP-mysql \
 ```
 php -r "readfile('http://getcomposer.org/installer');" | sudo php -- --install-dir=/usr/local/bin/ --filename=composer
 ```
+
+
+## Extensions
+
+### GRPC extension in php
+It requires php{x}-dev and possibly php-pear
+
+### Install for PHP-7.4
+```
+sudo pecl -d php_suffix=7.4 install grpc
+```
+
+and add extension to php.ini
