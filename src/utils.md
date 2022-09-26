@@ -37,3 +37,6 @@ journalctl --vacuum-time=10d
 ```bash
 yarn cache clean
 ```
+
+### Clean up snap
+LANG=C snap list --all | awk '/disabled/{print $1" --revision "$3}' | xargs -rn3 sudo snap remove
