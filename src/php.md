@@ -47,5 +47,5 @@ and add extension to php.ini
 
 ##### Verify Installtion
 ```
-php -r "var_dump(extension_loaded('json'));"
+php -r "var_dump(extension_loaded('grpc'));"
 ```
