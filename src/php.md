@@ -38,9 +38,14 @@ php -r "readfile('http://getcomposer.org/installer');" | sudo php -- --install-d
 ### GRPC extension in php
 It requires php{x}-dev and possibly php-pear
 
-### Install for PHP-7.4
+##### Install for PHP-7.4
 ```
 pecl -d php_suffix=7.4 install grpc
 ```
 
 and add extension to php.ini
+
+##### Verify Installtion
+```
+php -r "var_dump(extension_loaded('json'));"
+```
