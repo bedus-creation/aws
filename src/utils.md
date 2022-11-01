@@ -39,4 +39,6 @@ yarn cache clean
 ```
 
 ### Clean up snap
+```bash
 LANG=C snap list --all | awk '/disabled/{print $1" --revision "$3}' | xargs -rn3 sudo snap remove
+```
