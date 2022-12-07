@@ -20,3 +20,24 @@ First go to the main branch and
 ```
 git branch --merged | egrep -v "(^\*|master|develop)" | xargs git branch -d
 ```
+
+##### Config
+Edit global config
+```bash
+git config --global --edit
+
+For local config
+```bash
+git config --edit
+```
+
+##### Custom Identity file
+```bash
+git clone -c core.sshCommand="ssh -i ~/.ssh/id_bitbucket" git@bitbucket.org:username/example.git
+```
+
+Or edit in config 
+```bash
+[core]
+        sshcommand = ssh -i ~/.ssh/id_bitbucket
+```
