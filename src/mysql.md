@@ -26,3 +26,27 @@ flush privileges;
 ```bash
 mysql -u {root} -p {database} < {file}.sql
 ```
+
+### Reset forgot password
+```bash
+sudo /etc/init.d/mysql stop # Stop Mysql
+
+sudo mkdir /var/run/mysqld
+
+sudo chown mysql /var/run/mysqld
+
+sudo mysqld_safe --skip-grant-tables& 
+```
+
+& press `ENTER`
+
+```bash
+sudo mysql --user=root mysql #login as user
+
+UPDATE mysql.user SET authentication_string=null WHERE User='root';
+flush privileges;
+
+# set password
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password'; #
+flush privileges;
+```
