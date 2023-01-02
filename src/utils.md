@@ -3,6 +3,12 @@
 find / -size +1M
 ```
 
+### Search File that contains string
+```bash
+sudo find recup_dir.* -type f -name "*.py" | xargs cat | grep 'english'
+```
+The above command finds all directory starting with string `recup_dir.` and search for `py` files inside & highlights if the text `english` inside cat
+
 ### Sort files by size in the given directory
 ```bash
 sudo du -h . | sort -rh | head -200
