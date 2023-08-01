@@ -23,5 +23,6 @@ Docker container is a runtime instance of a Docker image.
 
 |Command | Description |
 | --- | --- |
+| `docker-compose up --build -d` | Start docker container with build and deamon |
 | `docker-compose down ` | Shutdown docker container |
 | `docker-compose down --remove-orphans` | Shutdown docker container removing docker orphans |
