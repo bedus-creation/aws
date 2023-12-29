@@ -33,6 +33,11 @@ Ensure there is entry like,
 local   all             all                                     trust
 ```
 
+### Create a User
+```bash
+CREATE ROLE root WITH LOGIN PASSWORD '#bedu123TamanG' CREATEDB;
+```
+
 ### Import sql file
 ```bash
 psql -d crm_production -w < /home/ellite/code/jobins/jobins-crm/jobins-crm-dump-5-11.sql
