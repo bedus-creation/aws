@@ -35,7 +35,7 @@ local   all             all                                     trust
 
 ### Create a User
 ```bash
-CREATE ROLE root WITH LOGIN PASSWORD '#bedu123TamanG' CREATEDB;
+CREATE ROLE root WITH LOGIN PASSWORD '********' CREATEDB;
 ```
 
 ### Import sql file
